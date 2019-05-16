@@ -1,8 +1,12 @@
 package main;
 
-public class Variables {
+public class Variables {	
 
-	public Variables() {
+	public static void clearScreen() {  
+	    System.out.print("\033[H\033[2J");  
+	    System.out.flush();  
+	}
+	public static void getMessage() {
 		System.out.println("***************************************************************************************");
 		System.out.println(Colors.ANSI_YELLOW + "ZMIENNE" + Colors.ANSI_RESET);
 		System.out.println("***************************************************************************************\n");

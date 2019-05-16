@@ -2,7 +2,7 @@ package main;
 
 public class DataType {
 	
-	public DataType() {
+	public static void getMessage() {
 		System.out.println("***************************************************************************************");
 		System.out.println(Colors.ANSI_YELLOW + "TYPY DANYCH" + Colors.ANSI_RESET);
 		System.out.println("***************************************************************************************\n");

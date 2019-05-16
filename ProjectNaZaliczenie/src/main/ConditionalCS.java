@@ -2,7 +2,7 @@ package main;
 
 public class ConditionalCS {
 	
-	public ConditionalCS() {
+	public static void getMessage() {
 		System.out.println("***************************************************************************************");
 		System.out.println(Colors.ANSI_YELLOW + "STRUKTURY STERUJĄCE WARUNKOWE" + Colors.ANSI_RESET);
 		System.out.println("***************************************************************************************\n");
