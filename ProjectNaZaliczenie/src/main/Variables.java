@@ -4,7 +4,9 @@ public class Variables {
 
 	public Variables() {
 		System.out.println("***************************************************************************************");
-		System.out.println("\nZmienne są jak \"pudełka\", w których można zapisywać wszelkiego rodzaju informacje.");
+		System.out.println(Colors.ANSI_YELLOW + "ZMIENNE" + Colors.ANSI_RESET);
+		System.out.println("***************************************************************************************\n");
+		System.out.println("Zmienne są jak \"pudełka\", w których można zapisywać wszelkiego rodzaju informacje.");
 		System.out.println("Kiedy tworzymy jakąś zmienną to musimy także napisać, do jakiego typu danych należy");
 		System.out.println("Typ danych pozwala nam ustalić, jakiego rodzaju informacje przechowuje dana zmienna.");
 		System.out.println("Deklarując zmienna najpierw podajemy jej typ, następnie nazwę a na końcu możemy określić jej wartość\n");

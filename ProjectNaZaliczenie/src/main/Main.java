@@ -21,6 +21,10 @@ public class Main {
 				Variables variables = new Variables();
 			}
 
+			if (choice == 2) {
+				DataType dataType = new DataType();
+			}
+			
 			if (choice == 5) {
 				exit = true;
 
