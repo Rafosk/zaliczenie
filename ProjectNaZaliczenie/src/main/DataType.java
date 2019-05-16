@@ -15,13 +15,13 @@ public class DataType {
 				"    \t\t"+ Colors.ANSI_GREEN +"int"+ Colors.ANSI_RESET +" - 4 bajty - zakres od -2 147 483 648 do 2 147 483 647\n" + 
 				"    \t\t"+ Colors.ANSI_GREEN +"long"+ Colors.ANSI_RESET +" - 8 bajtów - zakres od -2^63 do (2^63)-1 (posiadają przyrostek L, lub l)\n" 				
 				+ "\tzmiennoprzecinkowe: \n" +				
-				"    \t\t"+ Colors.ANSI_GREEN +"float+"+ Colors.ANSI_RESET +" - 4 bajty - max ok 6-7 liczb po przecinku (posiadają przyrostek F, lub f)\r\n" + 
+				"    \t\t"+ Colors.ANSI_GREEN +"float"+ Colors.ANSI_RESET +" - 4 bajty - max ok 6-7 liczb po przecinku (posiadają przyrostek F, lub f)\r\n" + 
 				"    \t\t"+ Colors.ANSI_GREEN +"double"+ Colors.ANSI_RESET +" - 8 bajtów - max ok 15 cyfr po przecinku (posiadają przyrostek D, lub d)\r\n"  				
 				+ "\ttekstowe:\n"
 				+ "\t\tznak:"+ Colors.ANSI_GREEN +" char"+ Colors.ANSI_RESET +" - służy do przechowywania pojedyńczych znaków.\n"
 				+ "\t\tciąg znaków: "+ Colors.ANSI_GREEN +"String+"+ Colors.ANSI_RESET +" - służy do przechowywania ciągów znaków, podstawowa zmienna przy pracy nad tekstami\n"
 				+ "\tlogiczne: \n\t\t"+ Colors.ANSI_GREEN +"boolean"+ Colors.ANSI_RESET +" - zmienna posiadająca dwa stay: true lub false. Służy głównie do sterowania procesami\n"
-				+ "\twyliczeniowe: \n\t\t"+ Colors.ANSI_GREEN +"Enum"+ Colors.ANSI_RESET +" - pozwala na definiowanie ograniczonego, wybranego zbioru możliwych wartości.\n"
+				+ "\twyliczeniowe: \n\t\t"+ Colors.ANSI_GREEN +"enum"+ Colors.ANSI_RESET +" - pozwala na definiowanie ograniczonego, wybranego zbioru możliwych wartości.\n"
 				+ Colors.ANSI_GREEN + "\t\tpublic enum Color{\n"
 				+ "\t\t\tCZERWONY,ZIELONY,NIEBIESKI;\n"
 				+ "\t\t}\n" + Colors.ANSI_RESET);

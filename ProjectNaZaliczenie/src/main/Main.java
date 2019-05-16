@@ -2,32 +2,32 @@ package main;
 
 import java.util.Scanner;
 
-
-
 public class Main {
 
 	public static void main(String[] args) {
 
 		welcome();
 		int choice = 0;
-		
+
 		boolean exit = false;
 
 		while (!exit) {
 
 			choice = getMenu();
 
-			if (choice == 1) {
+			switch (choice) {
+			case 1:
 				Variables variables = new Variables();
-			}
-
-			if (choice == 2) {
+				break;
+			case 2:
 				DataType dataType = new DataType();
-			}
-			
-			if (choice == 5) {
+				break;
+			case 3:
+				ConditionalCS CCS = new ConditionalCS();
+				break;
+			case 5:
 				exit = true;
-
+				break;
 			}
 
 		}
